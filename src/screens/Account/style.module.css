@@ -1,0 +1,234 @@
+.account {
+  padding: 4rem;
+  font-size: 1.4rem;
+  background: #1f1f1f;
+}
+
+.h1 {
+  margin-bottom: 1.5rem;
+  font-size: 2.4rem;
+  font-weight: 800;
+}
+
+.p {
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+}
+
+.userProfileCircle {
+  height: 150px;
+  width: 150px;
+  margin: auto;
+  margin-bottom: 6rem;
+  border-radius: 50%;
+  font-size: 4.8rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+.heading {
+  font-size: 2.4rem;
+  margin-bottom: 3rem;
+}
+
+.div {
+  margin-bottom: 2rem;
+  padding: 2rem 0;
+  border-bottom: 1px solid #333;
+}
+
+.label {
+  display: block;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.value {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  background-color: #121212;
+  padding: 1rem;
+  width: 350px;
+  border-radius: 3px;
+  font-size: 1.4rem;
+  border: none;
+  outline: none;
+  background: none !important;
+  padding-left: 0;
+}
+
+.inputValue {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  background-color: #121212;
+  padding: 1rem;
+  width: 350px;
+  border-radius: 3px;
+  font-size: 1.4rem;
+  border: none;
+  outline: none;
+}
+
+.pwValue {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  background-color: #121212;
+  padding: 1rem;
+  padding-left: 0;
+  width: 350px;
+  border-radius: 3px;
+  font-size: 1.4rem;
+  border: none;
+  outline: none;
+  -webkit-text-security: disc;
+  background: none !important;
+}
+
+.editBtn {
+  background: none;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  color: #176ee1;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.deleteBtn {
+  background-color: #ce0e00;
+  border: 1px solid #ce0e00;
+  color: #fff;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+
+.formGroup {
+  position: relative;
+}
+
+.textError {
+  position: absolute;
+  right: 0;
+  top: 0px;
+  background: red;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 3px;
+}
+
+.errorText {
+  display: block;
+  margin: 1rem 0;
+  color: red;
+}
+
+.inputError {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  background-color: #121212;
+  padding: 1rem;
+  width: 350px;
+  border-radius: 3px;
+  font-size: 1.4rem;
+  border: none;
+  outline: none;
+  border: 1px solid #cb2431 !important;
+  background-image: url('../../assets/img/error.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: right 8px center !important;
+  margin-bottom: 4rem;
+}
+
+.inputErrorMessage {
+  position: absolute;
+  z-index: 10;
+  top: 95%;
+  display: block;
+  width: 100%;
+  max-width: 350px;
+  padding: 8px 8px;
+  margin: 8px 0 0;
+  font-size: 12px;
+  font-weight: 400;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  background-color: #bf1515;
+  border-color: #bf1515;
+  color: #fff;
+  line-height: 1.25;
+}
+
+.inputErrorMessage::before {
+  position: absolute;
+  bottom: 100%;
+  left: 10px;
+  z-index: 15;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  content: ' ';
+  border: solid transparent;
+  border-bottom-color: #bf1515;
+  margin-left: -1px;
+  border-width: 6px;
+}
+
+.pwInput {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  background-color: #121212;
+  padding: 1rem;
+  width: 350px;
+  border-radius: 3px;
+  font-size: 1.4rem;
+  border: none;
+  outline: none;
+}
+
+.pwInputError {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  background-color: #121212;
+  padding: 1rem;
+  width: 350px;
+  border-radius: 3px;
+  font-size: 1.4rem;
+  border: none;
+  outline: none;
+  border: 1px solid #cb2431 !important;
+  background-image: url('../../assets/img/error.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: right 8px center !important;
+  margin-bottom: 2rem;
+}
+
+.errorImg {
+  display: block;
+  margin-right: 1rem;
+}
+.errorMessage {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+  max-width: 350px;
+  color: #cb2431;
+}

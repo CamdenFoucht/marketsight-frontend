@@ -1,0 +1,16 @@
+.slider__h3 {
+  margin: 3rem 0 2rem 0;
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+.slider__p {
+  display: block;
+  margin: 1rem auto;
+  font-size: 1.4rem;
+  color: #666;
+  max-width: 350px;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 4rem;
+}

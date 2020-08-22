@@ -1,0 +1,223 @@
+.title-container {
+  margin-bottom: 3rem;
+}
+
+.title {
+  font-size: 2.4rem;
+  font-weight: 900;
+}
+
+.tab__list {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  line-height: 2.5;
+}
+
+.tab__item {
+  margin-right: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.tab__item.active {
+  color: #fff;
+}
+
+.tab__container {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+}
+.tab__input {
+  margin: 0;
+  padding: 0;
+  height: 10px;
+  margin-right: 1rem;
+  border: none;
+  border-bottom: 1px solid #333;
+  font-size: 1rem;
+  background: transparent;
+  color: #aaa;
+  outline: none;
+}
+
+.tab__save {
+  margin: 0;
+  padding: 0rem 0.5rem;
+  margin-right: 1rem;
+  border: 1px solid #333;
+  font-size: 1rem;
+  color: #fff;
+  background: transparent;
+  cursor: pointer;
+}
+
+.tab__cancel {
+  margin: 0;
+  padding: 0rem 0.5rem;
+
+  margin-right: 1rem;
+  border: 1px solid #333;
+  font-size: 1rem;
+  color: #fff;
+  background: transparent;
+  cursor: pointer;
+}
+
+.watchlist__row {
+  display: flex;
+  flex: 0 1 auto;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 768px) {
+  .watchlist__row {
+    justify-content: center;
+  }
+}
+
+.watchlist__dropdown {
+  position: absolute;
+  width: 140px;
+  z-index: 500;
+  right: 0;
+}
+
+.watchlist__dropdown-item {
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.watchlist__empty {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.watchlist__empty-header {
+  margin-bottom: 2rem;
+  font-size: 2.4rem;
+}
+
+.watchlist__empty-text {
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+}
+
+.watchlist__empty-create {
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.rowchart {
+  padding: 2rem 0;
+  text-decoration: none;
+}
+
+/* ICONS */
+
+.watchlist__icon-row {
+  display: flex;
+  align-items: flex-start;
+}
+
+.watchlist__icon {
+  margin: 0 1rem;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.rowchart__ticker {
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.rowchart__company {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.rowchart__current-price {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.rowchart__price-change {
+  display: block;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.rowchart__dropdown-container {
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+}
+
+/* REACT RESIZABLE */
+
+.react-resizable-handle {
+  height: 50px;
+  width: 50px;
+  background: red;
+  display: block;
+  z-index: 100;
+  position: absolute;
+}
+
+.row-column {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .rowchart__ticker,
+  .rowchart__company,
+  .rowchart__current-price,
+  .rowchart__price-change {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  .rowchart__ticker,
+  .rowchart__company,
+  .rowchart__current-price,
+  .rowchart__price-change {
+    font-size: 1rem;
+  }
+}
+
+.listDropdownWrapper {
+  display: none;
+}
+
+.tab__list {
+  display: flex;
+}
+
+.row-company-name {
+  display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+  .listDropdownWrapper {
+    display: block;
+  }
+  .tab__list {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  .row-company-name {
+    display: none;
+  }
+}

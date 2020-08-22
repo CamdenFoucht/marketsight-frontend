@@ -1,0 +1,67 @@
+.mover__container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.canonical {
+  margin-top: 3rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+/* new */
+
+.mover__div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 1rem 1rem 0;
+  padding: 1rem;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  width: 125px;
+  text-align: center;
+}
+
+.mover__company {
+  display: flex;
+  align-items: center;
+  height: 3.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  line-height: 1.25;
+}
+
+.mover__symbol {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  color: #fff;
+}
+
+.mover__lastPrice {
+  display: block;
+  margin-bottom: 1.5rem;
+  font-size: 2.4rem;
+  font-weight: 900;
+}
+
+.mover__change {
+  margin-right: 0.2rem;
+  font-size: 1.2rem;
+}
+
+.mover__percent {
+  font-size: 1.2rem;
+}
+
+.mover__div.gainer {
+  background: #0f9d58;
+  color: #fff;
+}
+
+.mover__div.loser {
+  background: #e64a19;
+  color: #fff;
+}

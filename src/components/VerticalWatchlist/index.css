@@ -1,0 +1,97 @@
+.vertical__wrapper {
+  box-sizing: border-box;
+  direction: ltr;
+  height: auto;
+  max-height: 794px;
+  position: relative;
+  width: 300px;
+  will-change: transform;
+  overflow: scroll;
+}
+
+.vertical__container {
+  width: auto;
+  height: auto;
+  max-width: 300px;
+  min-height: 257px;
+  max-height: 2722px;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.vertical__wrapper::-webkit-scrollbar {
+  display: none;
+}
+.vertical__container::-webkit-scrollbar {
+  display: none;
+}
+
+.Dropdown-control {
+  padding: 2rem 1rem !important;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.Dropdown-arrow {
+  top: 25px !important;
+}
+
+.Dropdown-option {
+  color: inherit !important;
+}
+
+.Dropdown-option.is-selected {
+  background: #000 !important;
+  color: #fff !important;
+}
+
+.Dropdown-option:hover {
+  background: #000 !important;
+  color: #fff !important;
+}
+
+.vertical__card {
+  display: block;
+  padding: 2rem 1rem;
+  background: #eee;
+  text-decoration: none;
+}
+
+.vertical__card:hover {
+  background: #ccc;
+}
+
+.vertical__col {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.vertical__ticker {
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.vertical__price-col {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+}
+
+.vertical__current-price {
+  margin-bottom: 0.5rem;
+}
+
+.vertical__watchlist__empty {
+  text-align: center;
+  padding: 2rem 0 0 0;
+}
+
+.vertical__watchlist__empty-header {
+  font-size: 1.8rem;
+}
