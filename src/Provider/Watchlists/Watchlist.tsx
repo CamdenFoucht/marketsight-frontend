@@ -3,7 +3,7 @@ import Axios from 'axios';
 
 import { useAuth } from '../Auth';
 
-const API_URL = 'https://marketwatchserver.herokuapp.com/';
+const API_URL = 'https://marketsight.herokuapp.com/';
 
 const Context = createContext<any>(null);
 
