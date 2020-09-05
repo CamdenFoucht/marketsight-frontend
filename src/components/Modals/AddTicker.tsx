@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useTheme } from 'emotion-theming';
 import { css } from 'emotion';
 
-import { useWatchList } from '../../Provider/Watchlists/Watchlist';
+import { useWatchList } from '../../Provider/Watchlists';
 import { useAddTickerContext } from '../../Provider/Modals/AddTicker';
 import Search from './Search';
 

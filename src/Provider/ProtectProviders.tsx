@@ -5,7 +5,7 @@ import { AddTickerProvider } from './Modals/AddTicker';
 import { CreateListProvider } from './Modals/CreateList';
 import { StockDataProvider } from './StockData/StockData';
 import { StockProfileProvider } from './StockData/StockProfile';
-import { WatchlistProvider } from './Watchlists/Watchlist';
+import { WatchlistProvider } from './Watchlists';
 
 const ProtectedProviders = (props: any) => (
   <AddToListProvider>

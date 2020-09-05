@@ -6,7 +6,7 @@ import { Col, Row } from 'react-flexbox-grid';
 import TextTruncate from 'react-text-truncate';
 
 import VerticalWatchlist from '../../components/VerticalWatchlist/VerticalWatchlist';
-import { useWatchList } from '../../Provider/Watchlists/Watchlist';
+import { useWatchList } from '../../Provider/Watchlists';
 
 import './index.css';
 

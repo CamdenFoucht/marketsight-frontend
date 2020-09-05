@@ -115,51 +115,6 @@
   cursor: pointer;
 }
 
-.rowchart {
-  padding: 2rem 0;
-  text-decoration: none;
-}
-
-/* ICONS */
-
-.watchlist__icon-row {
-  display: flex;
-  align-items: flex-start;
-}
-
-.watchlist__icon {
-  margin: 0 1rem;
-  color: #ccc;
-  cursor: pointer;
-}
-
-.rowchart__ticker {
-  font-size: 1.4rem;
-  font-weight: bold;
-  text-align: center;
-}
-
-.rowchart__company {
-  font-size: 1.4rem;
-  text-align: center;
-}
-
-.rowchart__current-price {
-  font-size: 1.4rem;
-  text-align: center;
-}
-
-.rowchart__price-change {
-  display: block;
-  font-size: 1.4rem;
-  text-align: center;
-}
-
-.rowchart__dropdown-container {
-  top: 50% !important;
-  transform: translateY(-50%) !important;
-}
-
 /* REACT RESIZABLE */
 
 .react-resizable-handle {

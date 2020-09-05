@@ -4,13 +4,13 @@ import { Col, Row } from 'react-flexbox-grid';
 import { useWatchList } from '../../Provider/Watchlists';
 import { useAddToListContext } from '../../Provider/Modals/AddToList';
 import { useCreateListContext } from '../../Provider/Modals/CreateList';
-import Nav from './Nav';
-import WatchlistChart from '../Charts/WatchlistChart';
-import AddChart from '../Charts/AddChart';
-import EmptyWatchlist from './EmptyWatchlist';
-import WatchlistRowChart from '../Charts/WatchlistRowChart';
-import Loading from './Loading';
-import DangerBtn from '../Btn/DangerBtn';
+import Nav from '../../components/Watchlist/Nav';
+import WatchlistChart from '../../components/Charts/WatchlistChart';
+import AddChart from '../../components/Charts/AddChart';
+import EmptyWatchlist from '../../components/Watchlist/EmptyWatchlist';
+import WatchlistRowChart from '../../components/Charts/WatchlistRowChart';
+import Loading from '../../components/Watchlist/Loading';
+import DangerBtn from '../../components/Btn/DangerBtn';
 
 import './index.css';
 

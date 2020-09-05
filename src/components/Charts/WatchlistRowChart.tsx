@@ -7,13 +7,13 @@ import { Row, Col } from 'react-flexbox-grid';
 
 import { useStockData } from '../../Provider/StockData/StockData';
 import WLChartDropdown from '../Dropdowns/WLChartDropdown';
-import StockChart from '../Charts/StockChart';
+import StockChart from './StockChart';
 import ExpandMore from '../Btn/ExpandMore';
 import ExpandLess from '../Btn/ExpandLess';
 
 import './index.css';
 
-const RowChart = (props: any) => {
+const WatchlistRowChart = (props: any) => {
   const theme: any = useTheme();
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
@@ -108,4 +108,4 @@ const RowChart = (props: any) => {
   );
 };
 
-export default RowChart;
+export default WatchlistRowChart;

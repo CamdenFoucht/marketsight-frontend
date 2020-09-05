@@ -3,7 +3,7 @@ import Dropdown from 'react-dropdown';
 import { useTheme } from 'emotion-theming';
 import { css } from 'emotion';
 
-import { useWatchList } from '../../Provider/Watchlists/Watchlist';
+import { useWatchList } from '../../Provider/Watchlists';
 
 const ListSelectDropdown = (props: any) => {
   const theme: any = useTheme();

@@ -4,18 +4,16 @@ import { Row, Col } from 'react-flexbox-grid';
 
 import { useAddToListContext } from '../../Provider/Modals/AddToList';
 import { useStockProfile } from '../../Provider/StockData/StockProfile';
-import StockProfileSkeleton from './StockProfileSkeleton';
-import ProfileHeader from './ProfileHeader';
-import DetailChart from '../Charts/DetailChart';
-import About from './About';
-import Earnings from './Earnings';
-import StockPeers from './StockPeers';
-import News from './News';
-import Ratings from '../Charts/Ratings';
-import VerticalWatchlist from '../VerticalWatchlist/VerticalWatchlist';
-import VerticalSkeleton from '../VerticalWatchlist/VerticalSkeleton';
-
-import './index.css';
+import StockProfileSkeleton from '../../components/StockProfile/StockProfileSkeleton';
+import ProfileHeader from '../../components//StockProfile/ProfileHeader';
+import DetailChart from '../../components/Charts/DetailChart';
+import About from '../../components/StockProfile/About';
+import Earnings from '../../components/StockProfile/Earnings';
+import StockPeers from '../../components/StockProfile/StockPeers';
+import News from '../../components/StockProfile/News';
+import Ratings from '../../components/Charts/Ratings';
+import VerticalWatchlist from '../../components/VerticalWatchlist/VerticalWatchlist';
+import VerticalSkeleton from '../../components/VerticalWatchlist/VerticalSkeleton';
 
 const StockProfile = () => {
   let { ticker } = useParams();

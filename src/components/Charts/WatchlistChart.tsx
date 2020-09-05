@@ -4,16 +4,16 @@ import { css } from 'emotion';
 import { useTheme } from 'emotion-theming';
 import ContentLoader from 'react-content-loader';
 
-import { useStockData } from '../Provider/StockData/StockData';
-import StockChart from './Charts/StockChart';
-import WLChartDropdown from './Dropdowns/WLChartDropdown';
-import ExpandLess from './Btn/ExpandLess';
-import ExpandMore from './Btn/ExpandMore';
-import Delete from './Btn/Delete';
+import { useStockData } from '../../Provider/StockData/StockData';
+import StockChart from './StockChart';
+import WLChartDropdown from '../Dropdowns/WLChartDropdown';
+import ExpandLess from '../Btn/ExpandLess';
+import ExpandMore from '../Btn/ExpandMore';
+import Delete from '../Btn/Delete';
 
 import './index.css';
 
-const Chart = (props: any) => {
+const WatchlistChart = (props: any) => {
   const theme: any = useTheme();
 
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -107,4 +107,4 @@ const Chart = (props: any) => {
   );
 };
 
-export default Chart;
+export default WatchlistChart;

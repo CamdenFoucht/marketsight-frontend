@@ -1,10 +1,10 @@
 import React from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
-import Watchlist from './components/Watchlist/Watchlist';
+import Watchlist from './screens/Watchlist';
 import { useAuth } from './Provider/Auth';
 import Landing from './screens/Landing/Landing';
 import Auth from './screens/Auth/Auth';
-import StockProfile from './components/StockProfile';
+import StockProfile from './screens/StockProfile';
 import Movers from './screens/Movers/Movers';
 import News from './screens/News/News';
 import Account from './screens/Account/Account';

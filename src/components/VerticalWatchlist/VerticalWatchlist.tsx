@@ -4,7 +4,7 @@ import { css } from 'emotion';
 import { useTheme } from 'emotion-theming';
 import { Col, Row } from 'react-flexbox-grid';
 
-import { useWatchList } from '../../Provider/Watchlists/Watchlist';
+import { useWatchList } from '../../Provider/Watchlists';
 import VerticalChart from './VerticalChart';
 
 import 'react-dropdown/style.css';

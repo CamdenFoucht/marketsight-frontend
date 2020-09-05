@@ -3,7 +3,7 @@ import { useTheme } from 'emotion-theming';
 import { css } from 'emotion';
 
 import { useCreateListContext } from '../../Provider/Modals/CreateList';
-import { useWatchList } from '../../Provider/Watchlists/Watchlist';
+import { useWatchList } from '../../Provider/Watchlists';
 import BasicModal from './BasicModal';
 import Btn from '../Btn/Btn';
 
